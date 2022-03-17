@@ -1,0 +1,207 @@
+/* Notes */
+
+/* Fonts */
+@font-face {
+  font-family: "Myrlissa";
+  src: url("Myrlissa.otf");
+}
+
+@media all and (max-device-width: 1280px)
+{
+  header h1 {
+    font-size: 200px;
+  }
+  header h1 {
+    font-size: 160px;
+  }
+}
+
+@media all and (max-device-width: 768px)
+{
+  #listContactBlock h2, 
+  #listArticleBlock h2, 
+  #listeCommandeBlock h2, 
+  #informationBlock h2 {
+    font-size:1.5rem;
+    padding-top: 1rem;
+    /* line-height: 1px; */
+}
+
+
+  .responsiveNavDropdown a{
+    /* color: #9c5605; */
+    font-weight: bold;
+    }
+
+#listArticleBlock
+{
+margin: auto;
+padding: 1rem;
+background-color: #fff;
+/* max-width:fit-content; */
+display: flex;
+flex-direction: column;
+font-size: small;
+}
+ 
+  #sercheAreaDesckTop{
+    margin-right: auto;
+    visibility: hidden;
+  }
+  #sercheAreaMobile{
+    margin: auto;
+    padding-bottom: 0.75rem;
+    width: fit-content;
+    visibility: visible;
+  }
+  #commander .btn-container {
+    text-align: center;
+  }
+  #contact{
+    padding: 1rem;
+    padding-top: 5rem;
+  }
+  #presentation-card-block>img{
+    height: 850px;
+  }
+  #presentation img {
+    margin-bottom: 50px;
+  }
+  #presentation{
+    padding-top:0rem;
+  }
+  #presentation .jumbotron{
+    padding-bottom: 0;
+  }
+  #presentation .img-container,
+  #commander .img-container {
+    text-align: center;
+  }
+
+  #presentation .news {
+    padding: 2rem ;
+    margin:2rem;
+    text-align: justify;
+    font-style: italic;
+    align-content: center;
+  }
+
+  .form_contact p, .form_contact{
+    padding: 0rem;
+
+  }
+  #catalogue{
+    padding: 5rem 0rem;
+
+  }
+  #boutonEnvoyer input{
+    width: auto;
+    margin: auto;
+  }
+  #contact .form_contact  {  
+    padding: 1rem;
+    background-color:#fff3da;
+   }
+   #contactForm{  
+    padding: 0px;
+   }
+   #toLogin{  
+    padding-left:0rem;
+   }
+   #contact p{  
+     padding-bottom: 2.5rem;
+    }
+  #commander .text {
+    margin-bottom: 50px;
+  }
+}
+
+/* prend en compte ces propriétés lorsque la taille de l'écran ne dépasse pas 560px */
+@media all and (max-device-width: 560px)
+{
+  #presentation .img-news{
+      right: 38px;
+    }
+  #quiSommesNous div {
+    padding: 1rem;
+  }
+  #quiSommesNous .biographie{
+    font-size: 14px;
+    padding-top: 2rem;
+  }
+  #quiSommesNous{
+    padding: 4rem 1rem;
+  }
+  #plus-d-information{
+    border-top: 1px solid #777;
+  }
+  #presentation-card-block>img{
+    height: 1150px;
+  }
+  #presentation{
+    padding-top: 5rem;
+  }
+  #presentation .jumbotron{
+    padding-bottom: 0;
+  }
+  #presentation img {
+    max-width: 300px;
+  }
+  #presentation .news {
+    padding: auto ;
+    margin:auto;
+    text-align: justify;
+    font-style: italic;
+    align-content: center;
+    font-size: 20px;
+  }
+  #body {
+    background-color: #fff;
+  }
+}
+
+@media all and (max-device-width: 480px)
+{
+  header h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media all and (max-device-width: 425px)
+{
+  .objetLabel{  
+   padding-top: 2.5rem;
+  }
+}
+
+
+@media all and (max-device-width: 320px)
+{
+  #loginForm{  
+   padding: 0px;
+   background-color: #fff;
+  }
+  #presentation .news {
+    /* padding: 2rem ; */
+    /* margin:1rem; */
+    text-align: justify;
+    font-style: normal;
+    align-content: center;
+    font-size: 16px;
+  }
+  #presentation{
+    padding-top: 0;
+    justify-content: center;
+  }
+  #loginBody{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+
+
+
